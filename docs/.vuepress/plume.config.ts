@@ -18,12 +18,14 @@ import collections from './collections'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: './public/you-and-me.jpg',
 
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://github.com/BailuH' },
+    { icon: 'bilibili', link: 'https://b23.tv/t1EjDSe'},
+    { icon: 'zhihu', link: 'https://www.zhihu.com/people/BAILU'}
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
@@ -40,21 +42,21 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+  footer: {
+    message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+    copyright: '© 2026 白鹿的祈愿',
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'BAILU&#x27;s blog',
-    description: 'BAILU&#x27;s blog',
-    // circle: true,
-    // location: '',
-    // organization: '',
+    avatar: './public/eye-red.png',
+    name: '白鹿的祈愿',
+    description: 'BAILU的个人博客',
+    circle: true,
+    location: '中国·北京',
+    organization: '中国政法大学',
   },
 
   navbar,
@@ -72,10 +74,10 @@ export default defineThemeConfig({
   // },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/theme/#transition */
-  // transition: {
-  //   page: true,        // 启用 页面间跳转过渡动画
-  //   postList: true,    // 启用 博客文章列表过渡动画
-  //   appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
-  // },
+  transition: {
+    page: true,        // 启用 页面间跳转过渡动画
+    postList: true,    // 启用 博客文章列表过渡动画
+    appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
+  },
 
 })
