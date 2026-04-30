@@ -18,16 +18,16 @@ import collections from './collections'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: './public/you-and-me.jpg',
+  logo: '/you-and-me.jpg',
 
-  appearance: true,  // 配置 深色模式
+  appearance: false,  // 配置 深色模式
 
   social: [
     { icon: 'github', link: 'https://github.com/BailuH' },
     { icon: 'bilibili', link: 'https://b23.tv/t1EjDSe'},
     { icon: 'zhihu', link: 'https://www.zhihu.com/people/BAILU'}
   ],
-  // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
+  navbarSocialInclude: ['github', 'bilibili', 'zhihu'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
   // outline: [2, 3], // 页内大纲， 默认显示 h2, h3
 
@@ -51,9 +51,9 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: './public/eye-red.png',
+    avatar: '/eye-red.png',
     name: '白鹿的祈愿',
-    description: 'BAILU的个人博客',
+    description: '厚德 明法 格物 致公',
     circle: true,
     location: '中国·北京',
     organization: '中国政法大学',
