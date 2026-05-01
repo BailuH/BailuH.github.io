@@ -3,10 +3,11 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
-    full: true
-    forceDark: false
-    effect: '/pexels-mdsnmdsnmdsn-1831234.jpg'
+    type: banner
+    banner: /pexels-mdsnmdsnmdsn-1831234.jpg
+    bannerMask:
+      light: 0.1
+      dark: 0.3
     hero:
       name: 白鹿的祈愿
       tagline: 一个法学与计算机双修的普通大学生
@@ -14,7 +15,7 @@ config:
       actions:
         -
           theme: brand
-          text: 博客
+          text: BAILU的小世界
           link: /blog/
         -
           theme: alt
