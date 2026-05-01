@@ -5,12 +5,12 @@ config:
   -
     type: hero
     full: true
-    forceDark: true
-    effect: lightning
+    forceDark: false
+    effect: '/pexels-mdsnmdsnmdsn-1831234.jpg'
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 白鹿的祈愿
+      tagline: 一个法学与计算机双修的普通大学生
+      text: 要不是有人告诉我那是爱，我会以为那是一把赤裸的剑。
       actions:
         -
           theme: brand
@@ -19,5 +19,5 @@ config:
         -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/BailuH
 ---

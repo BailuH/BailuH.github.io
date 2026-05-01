@@ -20,7 +20,7 @@ import collections from './collections'
 export default defineThemeConfig({
   logo: '/you-and-me.jpg',
 
-  appearance: false,  // 配置 深色模式
+  appearance: true,  // 配置 深色模式
 
   social: [
     { icon: 'github', link: 'https://github.com/BailuH' },
