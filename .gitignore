@@ -6,3 +6,9 @@ docs/.vuepress/dist
 
 .DS_Store
 *.log
+
+# 动态从 Obsidian 仓库拉取，无需提交
+docs/notes/*
+docs/blog/*
+!docs/notes/.gitkeep
+!docs/blog/.gitkeep
