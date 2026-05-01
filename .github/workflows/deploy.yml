@@ -18,42 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. 检出博客源码（保持原有）
-      - name: Checkout Blog
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2. 检出 Obsidian 笔记仓库
-      - name: Checkout Obsidian Vault
-        uses: actions/checkout@v4
-        with:
-          repository: BailuH/MyObsidianVault
-          path: vault
-
-      # 3. 目录映射：Obsidian → Plume
-      - name: Sync Vault to Blog
-        run: |
-          mkdir -p docs/notes/law
-          mkdir -p docs/notes/general
-          mkdir -p docs/notes/cs
-          mkdir -p docs/notes/math
-          mkdir -p docs/notes/hobby-cs
-          mkdir -p docs/blog
-
-          # 5 个笔记集合（中文目录名，双引号包裹）
-          cp -r "vault/01-泛法学"/*           docs/notes/law/        2>/dev/null || true
-          cp -r "vault/02-通识"/*             docs/notes/general/    2>/dev/null || true
-          cp -r "vault/03-泛计算机技术"/*     docs/notes/cs/         2>/dev/null || true
-          cp -r "vault/04-数学"/*             docs/notes/math/       2>/dev/null || true
-          cp -r "vault/05- 兴趣计算机知识"/*   docs/notes/hobby-cs/   2>/dev/null || true
-
-          # 博客文章（来自子目录，路径带空格）
-          cp -r "vault/06- 我的自媒体尝试/z-公众号草稿箱"/*  docs/blog/  2>/dev/null || true
-
-          echo "✅ Sync completed"
-
-      # 4. 以下保持你原来的构建流程不变
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
         with:

@@ -7,8 +7,10 @@ docs/.vuepress/dist
 .DS_Store
 *.log
 
-# 动态从 Obsidian 仓库拉取，无需提交
-docs/notes/*
-docs/blog/*
-!docs/notes/.gitkeep
-!docs/blog/.gitkeep
+# 屏蔽没必要的Obsidian
+.obsidian
+docs/style-settings.json
+docs/Excalidraw
+docs/教材
+docs/PDF
+docs/z-杂乱无章的生活
