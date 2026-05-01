@@ -1,3 +1,8 @@
+---
+title: git命令
+createTime: 2026/05/01 20:44:43
+permalink: /notes/order/c469rf74/
+---
 Git 常用命令速查表  
 ![](https://bailu-1382509292.cos.ap-beijing.myqcloud.com/obsidian/20260304175030002.png)
 

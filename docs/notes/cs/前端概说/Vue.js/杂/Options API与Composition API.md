@@ -1,3 +1,8 @@
+---
+title: Options API与Composition API
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/kkqlvnc2/
+---
  >⚠️ 以下内容来源于Kimi-K2.5大模型，自辩真伪。
 
 Vue.js 的 **Options API** 与 **Composition API** 是两种截然不同的**组件逻辑组织方式**，分别代表了"配置对象"与"组合函数"两种编程范式。

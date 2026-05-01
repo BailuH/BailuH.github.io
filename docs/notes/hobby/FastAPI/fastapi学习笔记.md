@@ -1,3 +1,8 @@
+---
+title: fastapi学习笔记
+createTime: 2026/05/01 20:28:10
+permalink: /notes/hobby/gtst08li/
+---
 ## 第一步：接口（endpoint）的基本组件
 ![[fastapi的第一步]]
 在后端开发中，我们常说的“接口”（endpoint），在Web开发的语境下，一般指的就是==API的访问路径==，即一个非常具体的URL路径。它通常由`域名（服务器地址）+路径`组成，每一个接口都对应服务器上的`一种特定资源或操作`。

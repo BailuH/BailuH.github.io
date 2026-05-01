@@ -1,3 +1,8 @@
+---
+title: DOM
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/y2bt9nsi/
+---
 *(以下内容来源于Kimi K2.6)*
 
 **DOM** 是 **Document Object Model**（**文档对象模型**）的缩写。

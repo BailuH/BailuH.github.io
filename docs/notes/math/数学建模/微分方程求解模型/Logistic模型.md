@@ -1,3 +1,8 @@
+---
+title: Logistic模型
+createTime: 2026/05/01 20:27:40
+permalink: /notes/math/tbp1x850/
+---
 ## 问题起源——Malthus人口增长模型
 
 ![image.png](https://bailu-1382509292.cos.ap-beijing.myqcloud.com/obsidian/20260306153217103.png)

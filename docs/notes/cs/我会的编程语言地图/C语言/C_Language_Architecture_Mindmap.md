@@ -1,3 +1,8 @@
+---
+title: C_Language_Architecture_Mindmap
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/anibn91i/
+---
 # C 语言底层架构与设计哲学 - 深度全景思维导图
 
 这是一个极尽详尽的 C 语言系统架构思维导图，涵盖了类型系统、执行模型、抽象机制和设计哲学四个核心维度。

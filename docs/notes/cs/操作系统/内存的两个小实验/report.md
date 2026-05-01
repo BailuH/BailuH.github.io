@@ -1,3 +1,8 @@
+---
+title: report
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/fxwcbdxk/
+---
 # 实验报告：TLB容量与访问开销测量实验
 
 >实验环境

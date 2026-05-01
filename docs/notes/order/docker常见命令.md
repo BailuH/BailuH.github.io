@@ -1,3 +1,8 @@
+---
+title: docker常见命令
+createTime: 2026/05/01 20:28:51
+permalink: /notes/order/6s0l6hfw/
+---
 docker ps       # 列出所有正在运行容器
 
 -a 参数           # 列出已停止容器

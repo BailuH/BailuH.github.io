@@ -1,3 +1,8 @@
+---
+title: uv 指令
+createTime: 2026/05/01 20:28:51
+permalink: /notes/order/iabmcdzg/
+---
 # uv 常用命令速查表
 > Rust 编写的极速 Python 工具链，集成包管理、虚拟环境、构建与发布。
 

@@ -1,3 +1,8 @@
+---
+title: JS的多文件管理
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/ddeh9ztx/
+---
 （以下内容来源于Kimi，暂未甄别）
 
 根据 MDN 官方文档，我为你整理了以下 JavaScript 模块导入语法与多文件管理学习笔记：

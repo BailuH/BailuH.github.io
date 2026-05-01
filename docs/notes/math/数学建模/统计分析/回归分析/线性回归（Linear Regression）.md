@@ -1,3 +1,8 @@
+---
+title: 线性回归（Linear Regression）
+createTime: 2026/05/01 20:27:40
+permalink: /notes/math/ud9z1gc9/
+---
 ## 线性回归分析的一般流程
 
 ## 一元线性回归

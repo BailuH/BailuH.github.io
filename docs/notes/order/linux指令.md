@@ -1,3 +1,8 @@
+---
+title: linux指令
+createTime: 2026/05/01 20:28:51
+permalink: /notes/order/1zfn6rcs/
+---
 ## zsh
 编辑我的~/.zshrc
 

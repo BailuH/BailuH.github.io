@@ -1,3 +1,8 @@
+---
+title: CSS
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/npe27jht/
+---
 # CSS - 层叠样式表
 ## 核心语法
 

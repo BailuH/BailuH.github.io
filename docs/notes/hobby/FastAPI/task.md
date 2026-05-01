@@ -1,3 +1,8 @@
+---
+title: task
+createTime: 2026/05/01 20:28:10
+permalink: /notes/hobby/d0bemksl/
+---
 针对你的“多智能体法庭辩论”项目，这属于 LangGraph 中典型的**多角色状态机（Stateful Multi-Agent）**场景。要支撑这类项目，后端不仅要处理复杂的逻辑状态，还要通过 WebSocket 实现类似“实时弹幕”或“对话流”的效果。
 
 以下是为你量身定制的 **20天 FastAPI + LangGraph 后端开发突击计划**。

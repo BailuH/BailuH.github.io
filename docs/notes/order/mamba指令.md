@@ -1,3 +1,8 @@
+---
+title: mamba指令
+createTime: 2026/05/01 20:28:51
+permalink: /notes/order/79rpo48h/
+---
 # Mamba 常用命令速查表
 &gt; 兼容 Conda，加速下载，适用于 Conda-forge 及 Bioconda 等科学计算通道。
 

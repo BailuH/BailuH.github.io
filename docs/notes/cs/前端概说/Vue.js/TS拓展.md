@@ -1,3 +1,8 @@
+---
+title: TS拓展
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/9fgn3h46/
+---
 TypeScript是JavaScript的超集，主要在数据类型解析上做了拓展，在Vue开发的场景下，对于提高组件代码的可读性和可维护性有作用（*1️⃣在编译时通过静态分析检测出很多常见错误，2️⃣通过 IDE 中基于类型的自动补全，TypeScript 还改善了开发体验和效率*）
 本笔记侧重于TS对于Composition API的拓展方法。
 

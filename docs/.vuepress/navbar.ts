@@ -16,11 +16,11 @@ export default defineNavbarConfig([
     items: [
       { text: '笔记说明指南', link: '/notes/2drtdmjr/' },
       { text: '泛法学', link: '/notes/law/jvgpjise/' },
-      { text: '泛计算机技术', link: "/notes/cs/" },
-      { text: '兴趣计算机知识', link: '/notes/hobby/' },
-      { text: '数学', link: '/notes/math/' },
-      { text: '一些通识', link: '/notes/general/' },
-      { text: '常见指令合集', link: '/notes/order/' },
+      { text: '泛计算机技术', link: '/notes/cs/6vx8fvln/' },
+      { text: '兴趣计算机知识', link: '/notes/hobby/gtst08li/' },
+      { text: '数学', link: '/notes/math/gz42cc1m/' },
+      { text: '一些通识', link: '/notes/general/ckz4g36j/' },
+      { text: '常见指令合集', link: '/notes/order/c469rf74/' },
     ]
   },
 ])

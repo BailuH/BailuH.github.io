@@ -1,3 +1,8 @@
+---
+title: architecture
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/03ah3d0j/
+---
 > 参考资料：
 
 ![image.png](https://bailu-1382509292.cos.ap-beijing.myqcloud.com/obsidian/20260416084528835.png)

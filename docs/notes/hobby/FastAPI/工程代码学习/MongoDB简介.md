@@ -1,3 +1,8 @@
+---
+title: MongoDB简介
+createTime: 2026/05/01 20:28:10
+permalink: /notes/hobby/dptr527z/
+---
 `MongoDB`属于==NOSQL==数据库，它组织数据的方式与传统的关系型数据库不太一样，提供了一种更简单，更符合人类直观的存储策略：
 - MongoDB的基本数据对象称为**文档**（Document），数据结构类似于*JSON、JS的对象、Python的字典类型*，是一组键值对的形式(事实上它是一个被称为`BSON`的数据结构)。
 - 若干**文档**组合起来称为**集合**（Collection）

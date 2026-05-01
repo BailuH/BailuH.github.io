@@ -1,3 +1,8 @@
+---
+title: measurement_TLB
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/y2y5bicm/
+---
 # **实验名称：TLB 容量与访问开销测量实验**
 ## 一、实验目的
 

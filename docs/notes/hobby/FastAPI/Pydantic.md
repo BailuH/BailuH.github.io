@@ -1,3 +1,8 @@
+---
+title: Pydantic
+createTime: 2026/05/01 20:28:10
+permalink: /notes/hobby/imwxgfso/
+---
 > Pydantic是用来校验数据类型的，是 Python 中使用最广泛的数据验证库。
 > 一方面，它可以减轻你写代码的时候，对于程序输入数据的“幻想”（以及为这份幻想所编写的一系列处理数据类型的代码，比方说Python里的`isinstance`），另一方面，Pydantic也是很多其他同样非常重要的库（例如fastapi）的基础。
 

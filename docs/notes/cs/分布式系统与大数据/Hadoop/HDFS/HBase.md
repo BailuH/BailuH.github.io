@@ -1,3 +1,8 @@
+---
+title: HBase
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/u2lftsn4/
+---
 ## 从`BigTable`说起
 **BigTable** 是 Google 开发的**分布式结构化数据存储系统**，发表于 2006 年的 OSDI 论文《*Bigtable: A Distributed Storage System for Structured Data*》。它是 HBase 的直接设计原型，两者在架构和概念上高度相似。
 > 🤔关系数据库已经流行了很多年，且又有`HDFS`和`MapReduce`的存在，为什么还需要`Hbase`/`BigTable`?

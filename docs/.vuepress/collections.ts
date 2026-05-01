@@ -72,7 +72,12 @@ const general = defineCollection({
   dir: '/notes/general',
   linkPrefix: '/notes/general/',
   title: '一些通识',
-  sidebar: 'auto'
+  sidebar: 'auto',
+  autoFrontmatter: {
+    title: true, // 自动生成标题
+    createTime: true, // 自动生成创建时间
+    permalink: true, // 自动生成永久链接
+  }
 })
 
 const cs = defineCollection({
@@ -80,7 +85,12 @@ const cs = defineCollection({
   dir: '/notes/cs',
   linkPrefix: '/notes/cs/',
   title: '泛计算机技术',
-  sidebar: 'auto'
+  sidebar: 'auto',
+  autoFrontmatter: {
+    title: true, // 自动生成标题
+    createTime: true, // 自动生成创建时间
+    permalink: true, // 自动生成永久链接
+  }
 })
 
 const math = defineCollection({
@@ -88,7 +98,12 @@ const math = defineCollection({
   dir: '/notes/math',
   linkPrefix: '/notes/math/',
   title: '数学',
-  sidebar: 'auto'
+  sidebar: 'auto',
+  autoFrontmatter: {
+    title: true, // 自动生成标题
+    createTime: true, // 自动生成创建时间
+    permalink: true, // 自动生成永久链接
+  }
 })
 
 const hobby = defineCollection({
@@ -96,7 +111,12 @@ const hobby = defineCollection({
   dir: '/notes/hobby',
   linkPrefix: '/notes/hobby/',
   title: '兴趣计算机知识',
-  sidebar: 'auto'
+  sidebar: 'auto',
+  autoFrontmatter: {
+    title: true, // 自动生成标题
+    createTime: true, // 自动生成创建时间
+    permalink: true, // 自动生成永久链接
+  }
 })
 
 const order = defineCollection({
@@ -104,7 +124,12 @@ const order = defineCollection({
   dir: '/notes/order',
   linkPrefix: '/notes/order/',
   title: '常见命令合集',
-  sidebar: 'auto'
+  sidebar: 'auto',
+  autoFrontmatter: {
+    title: true, // 自动生成标题
+    createTime: true, // 自动生成创建时间
+    permalink: true, // 自动生成永久链接
+  }
 })
 /**
  * 导出所有的 collections

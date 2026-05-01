@@ -1,3 +1,8 @@
+---
+title: debug_8
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/5miaz3ga/
+---
 # 动态数组的调试记录
 好久不写数据结构，兴致勃勃地写了很长代码结果根本跑不动，不过也好，正好练习valgrind的使用了
 

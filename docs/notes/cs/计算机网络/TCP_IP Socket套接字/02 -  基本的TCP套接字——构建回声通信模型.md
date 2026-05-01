@@ -1,3 +1,8 @@
+---
+title: 02 -  基本的TCP套接字——构建回声通信模型
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/5h9w7g0d/
+---
 ### 文件结构：
 ```txt
 .

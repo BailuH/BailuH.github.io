@@ -1,3 +1,8 @@
+---
+title: 层
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/45wn5ngb/
+---
 ### 信号分类与信道
 - 通信传输基本模型
 - 模拟信号与数字信号

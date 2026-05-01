@@ -1,3 +1,8 @@
+---
+title: 模板语法（Template Syntax）
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/12eq61nj/
+---
 ## 常见的指令
 指令是带有 `v-` 前缀的特殊属性，用于在表达式值变化时**响应式地操作 DOM**。
 ![image.png](https://bailu-1382509292.cos.ap-beijing.myqcloud.com/obsidian/20260427144721769.png)

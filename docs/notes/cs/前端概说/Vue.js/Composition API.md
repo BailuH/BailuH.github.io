@@ -1,3 +1,8 @@
+---
+title: Composition API
+createTime: 2026/05/01 20:27:07
+permalink: /notes/cs/yd80h9mn/
+---
 ## 单文件组件语法（SFCs）
 一个 Vue 单文件组件 (SFC)，通常使用 `*.vue` 作为文件扩展名，它是一种使用了类似 HTML 语法的自定义文件格式，用于定义 Vue 组件。一个 Vue 单文件组件在语法上是兼容 HTML 的。
 
