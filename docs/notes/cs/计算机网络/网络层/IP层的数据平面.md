@@ -1,7 +1,7 @@
-> 参考资料
-> 1.《计算机网络：自顶向下方法》
-> 2. [【城】网络高手让你断网的方法竟是...如何预防？(ARP协议与攻击防护)](https://www.bilibili.com/video/BV1B3PxeKEsV?vd_source=b51eb5e008b294966f12953b4f210acf)
-> 3. [中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程](https://www.bilibili.com/video/BV1JV411t7ow?vd_source=b51eb5e008b294966f12953b4f210acf)
+> 参考资料<br>
+> 1.《计算机网络：自顶向下方法》<br>
+> 2. [【城】网络高手让你断网的方法竟是...如何预防？(ARP协议与攻击防护)](https://www.bilibili.com/video/BV1B3PxeKEsV?vd_source=b51eb5e008b294966f12953b4f210acf)<br>
+> 3. [中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程](https://www.bilibili.com/video/BV1JV411t7ow?vd_source=b51eb5e008b294966f12953b4f210acf)<br>
 > 4. 谢希仁《计算机网络》
 
 ## 写在前面的话
@@ -72,6 +72,11 @@
 掩码是一个 32 位位图，通过与 IP 地址==逐位逻辑 AND== 来判定网络/子网/主机边界，从而允许组织在内部把一个 Class A/B/C 网络再切分为多个子网，==减少地址浪费并简化路由逻辑==。
 
 关于子网划分与子网掩码有一些计算的问题，这部分内容不论是在什么层次的考试中都是会考的，可以参考[Subnet masks: a complete guide for infrastructure professionals](https://www.stackscale.com/blog/subnet-masks-a-complete-guide-for-infrastructure-professionals/)来学习。
+
+> ⚠️易错点：<br>
+> 不要把子网掩码当作是子网的唯一标识，子网掩码的作用只不过是用来将==IP地址的网络号与主机号区分开==。 <br>
+> 所以路由聚合的关键任务就是将**子网掩码/CIDR后缀**的确定。
+
 
 此外对于子网，要意识到**最重要的一点**是，子网内的各节点并仅仅是高位地址（网络号）相同这么简单。从报文转发的角度来看，位于同一子网内的各节点之间报文传递是==不需要经过路由器进行转发==的，而是通过链路层进行==直接转发==的。
 
